@@ -1,12 +1,19 @@
 .carousel__btn {
   width: 47px;
   height: 47px;
+  transition: transform 0.5s;
 
   &_next {
     background: url(../images/slider-btn/next-btn.png);
+    margin-left: 15px;
   }
 
   &_prev {
     background: url(../images/slider-btn/prev-btn.png);
+    margin-right: 15px;
+  }
+
+  &:hover {
+    transform: scale(1.1);
   }
 }
