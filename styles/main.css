@@ -1,0 +1,114 @@
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400; }
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+.twitter-card {
+  background: #fff;
+  height: 160px;
+  width: 310px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 4px;
+  border: 1px solid #828282;
+  padding: 20px 15px 10px 25px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+  .twitter-card__message {
+    height: 80px;
+    font-size: 14px;
+    color: #4f4f4f; }
+  .twitter-card__name {
+    margin-left: 8px;
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: bold; }
+  .twitter-card__avatar {
+    width: 30px;
+    height: 30px; }
+  .twitter-card__ico {
+    position: absolute;
+    top: 25px;
+    right: 15px;
+    width: 15px;
+    height: 12px;
+    background: url("../images/twitter.png"); }
+
+.carousel__btn {
+  width: 47px;
+  height: 47px;
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s; }
+  .carousel__btn_next {
+    background: url(../images/slider-btn/next-btn.png);
+    margin-left: 15px; }
+  .carousel__btn_prev {
+    background: url(../images/slider-btn/prev-btn.png);
+    margin-right: 15px; }
+  .carousel__btn:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1); }
+
+.carousel {
+  list-style: none;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .carousel__dots-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+  .carousel__dot {
+    width: 10px;
+    height: 10px;
+    background-color: lightgrey;
+    border-radius: 50%;
+    margin-right: 2px; }
+    .carousel__dot_active {
+      background-color: grey; }
+
+body {
+  font-family: Lato, sans-serif; }
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+/*# sourceMappingURL=main.css.map */
